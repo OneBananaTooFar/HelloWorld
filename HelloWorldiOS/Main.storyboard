@@ -104,7 +104,7 @@
                     <connections>
                         <outlet property="txtnumb1" destination="386" id="name-outlet-386"/>
                         <outlet property="txtnumb2" destination="389" id="name-outlet-389"/>
-                        <outlet property="txtAnswer" destination="391" id="name-outlet-391"/>
+                        <outlet property="labelAnswer" destination="391" id="name-outlet-391"/>
                         <outlet property="AddButton" destination="396" id="name-outlet-396"/>
                         <outlet property="SubtractButton" destination="397" id="name-outlet-397"/>
                         <outlet property="MultiplyButton" destination="398" id="name-outlet-398"/>

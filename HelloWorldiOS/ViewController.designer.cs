@@ -23,15 +23,15 @@ namespace HelloWorldiOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel labelAnswer { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton MultiplyButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton SubtractButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel txtAnswer { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -57,6 +57,11 @@ namespace HelloWorldiOS
                 DivideButton = null;
             }
 
+            if (labelAnswer != null) {
+                labelAnswer.Dispose ();
+                labelAnswer = null;
+            }
+
             if (MultiplyButton != null) {
                 MultiplyButton.Dispose ();
                 MultiplyButton = null;
@@ -65,11 +70,6 @@ namespace HelloWorldiOS
             if (SubtractButton != null) {
                 SubtractButton.Dispose ();
                 SubtractButton = null;
-            }
-
-            if (txtAnswer != null) {
-                txtAnswer.Dispose ();
-                txtAnswer = null;
             }
 
             if (txtnumb1 != null) {
