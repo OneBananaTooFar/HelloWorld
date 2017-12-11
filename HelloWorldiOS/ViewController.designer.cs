@@ -35,6 +35,18 @@ namespace HelloWorldiOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txt1stnum { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField txt2ndnum { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel txtAnswer { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField txtnumb1 { get; set; }
 
         [Outlet]
@@ -44,6 +56,10 @@ namespace HelloWorldiOS
         [Action ("UIButton398_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void UIButton398_TouchUpInside (UIKit.UIButton sender);
+
+        [Action ("UIButton625_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void UIButton625_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
@@ -70,6 +86,21 @@ namespace HelloWorldiOS
             if (SubtractButton != null) {
                 SubtractButton.Dispose ();
                 SubtractButton = null;
+            }
+
+            if (txt1stnum != null) {
+                txt1stnum.Dispose ();
+                txt1stnum = null;
+            }
+
+            if (txt2ndnum != null) {
+                txt2ndnum.Dispose ();
+                txt2ndnum = null;
+            }
+
+            if (txtAnswer != null) {
+                txtAnswer.Dispose ();
+                txtAnswer = null;
             }
 
             if (txtnumb1 != null) {
