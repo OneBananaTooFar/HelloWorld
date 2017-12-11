@@ -19,6 +19,22 @@ namespace HelloWorldiOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonAdd { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonDivide { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonMultiply { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonSubtract { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton DivideButton { get; set; }
 
         [Outlet]
@@ -66,6 +82,26 @@ namespace HelloWorldiOS
             if (AddButton != null) {
                 AddButton.Dispose ();
                 AddButton = null;
+            }
+
+            if (buttonAdd != null) {
+                buttonAdd.Dispose ();
+                buttonAdd = null;
+            }
+
+            if (buttonDivide != null) {
+                buttonDivide.Dispose ();
+                buttonDivide = null;
+            }
+
+            if (buttonMultiply != null) {
+                buttonMultiply.Dispose ();
+                buttonMultiply = null;
+            }
+
+            if (buttonSubtract != null) {
+                buttonSubtract.Dispose ();
+                buttonSubtract = null;
             }
 
             if (DivideButton != null) {

@@ -167,6 +167,10 @@
                         <outlet property="txt1stnum" destination="610" id="name-outlet-610"/>
                         <outlet property="txt2ndnum" destination="611" id="name-outlet-611"/>
                         <outlet property="txtAnswer" destination="619" id="name-outlet-619"/>
+                        <outlet property="buttonAdd" destination="625" id="name-outlet-625"/>
+                        <outlet property="buttonSubtract" destination="626" id="name-outlet-626"/>
+                        <outlet property="buttonMultiply" destination="627" id="name-outlet-627"/>
+                        <outlet property="buttonDivide" destination="628" id="name-outlet-628"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
